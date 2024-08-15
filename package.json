@@ -1,0 +1,42 @@
+{
+  "name": "gatsby-movement",
+  "description": "gatsby",
+  "version": "1.0.0",
+  "author": "Robin Wieruch <wrobin@gmx.net>",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "date-fns": "^1.29.0",
+    "express": "^4.16.2",
+    "gatsby": "^1.9.63",
+    "gatsby-link": "^1.6.31",
+    "gatsby-plugin-google-analytics": "^1.0.10",
+    "gatsby-plugin-manifest": "^1.0.10",
+    "gatsby-plugin-offline": "^1.0.10",
+    "gatsby-plugin-react-helmet": "^1.0.5",
+    "gatsby-plugin-sentry": "0.0.2",
+    "gatsby-plugin-styled-components": "^1.0.5",
+    "gatsby-plugin-typography": "^1.7.10",
+    "typography-theme-moraga": "^0.15.10"
+  },
+  "keywords": [
+    "gatsby",
+    "blog"
+  ],
+  "engines": {
+    "node": "8.3.0",
+    "npm": "5.6.0"
+  },
+  "license": "",
+  "main": "n/a",
+  "scripts": {
+    "build": "gatsby build --prefix-paths",
+    "prestart": "gatsby build --prefix-paths",
+    "start": "node app.js",
+    "develop": "gatsby develop",
+    "format": "prettier es5 --single-quote --write 'src/**/*.js'",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "devDependencies": {
+    "prettier": "^1.7.4"
+  }
+}
